@@ -8,7 +8,7 @@ In otherwords, instead of stopping at model accuracy, I focused on the prescript
 ## Objective
 
 The main objectives of this project: 
- - identify high risk transactions
+ - Identify high risk transactions
  - Reduce fraud losses
  - Limit unneccessary manaual reviews
  - Maintain good customer experience
