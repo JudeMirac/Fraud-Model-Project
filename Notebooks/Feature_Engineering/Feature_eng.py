@@ -19,7 +19,7 @@ def add_interactions(df):
     """
     df = df.copy()
     df['tenure_x_chargebacks'] = (df['account_tenure_months'] * df['previous_chargebacks'])
-    df['tenure_x_velocity'] = (df['account_tenure_months'] / (df['num_transactions_24h'] + 1))
+    df['tenure_per_transaction'] = (df['account_tenure_months'] / (df['num_transactions_24h'] + 1))
     df['chargeback_x_region'] = (df['previous_chargebacks'] * df['region'])
     df['chargeback_x_device'] = (df['previous_chargebacks'] * df['device_type'])
     df['chargebacks_x_age'] = (df['previous_chargebacks'] * df['customer_age'])
