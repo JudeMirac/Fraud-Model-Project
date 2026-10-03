@@ -60,7 +60,7 @@ This ensures:
 
 ## Project Structure
 ```
-Fraud_DS_Project/
+Fraud-Model-Project/
 ├── Data/
 │   └── fraud_risk_dataset.csv       # Fraud risk dataset
 ├── Notebooks/
@@ -80,8 +80,8 @@ Fraud_DS_Project/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/JudeMirac/Fraud_DS_Project.git
-cd Fraud_DS_Project
+git clone https://github.com/JudeMirac/Fraud-Model-Project.git
+cd Fraud-Model-Project
 ```
 
 2. Create a virtual environment (recommended):

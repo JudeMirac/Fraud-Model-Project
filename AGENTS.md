@@ -35,7 +35,7 @@ Read the relevant source before editing. Preserve unrelated user changes and est
 - Preserve notebook stages and the distinction between analytical evaluation and production outcomes.
 - Review preprocessing and feature engineering for leakage before changing splits, models, scores, or ALLOW/REVIEW/BLOCK tiers.
 - Do not replace reported 61% capture or 80/15/5 tier allocations without reproducible evidence.
-- Preserve filenames and relative paths; README references Fraud_DS_Project, which does not match this repository name.
+- Preserve filenames and relative paths; installation instructions must use the actual Fraud-Model-Project repository name.
 - Avoid notebook output churn, full dataset dumps, and untrusted model deserialization.
 
 ## Verification
